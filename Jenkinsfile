@@ -1,4 +1,4 @@
-#dummy change to trigger the job
+// dummy change to trigger the job
 pipeline{
   agent any
   stages{
