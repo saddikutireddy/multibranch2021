@@ -7,5 +7,11 @@ pipeline{
       git url: 'https://github.com/javahometech/multibranch2021'
       }
     }
+    
+        stage('Test'){
+      steps{
+      echo 'job sucess'
+      }
+    }
   }
 }
