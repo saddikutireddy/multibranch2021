@@ -4,7 +4,7 @@ pipeline{
   stages{
     stage('SCM Checkout'){
       steps{
-      git url: 'https://github.com/saddikutireddy/devops'
+     echo 'job sucess'
       }
     }
     
