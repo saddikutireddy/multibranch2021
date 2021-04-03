@@ -4,7 +4,7 @@ pipeline{
   stages{
     stage('SCM Checkout'){
       steps{
-      git url: 'https://github.com/javahometech/multibranch2021'
+      git url: 'https://github.com/saddikutireddy/devops'
       }
     }
   }
